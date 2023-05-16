@@ -96,6 +96,7 @@ local function handleCommand(command)
 
   elseif command == "5" then
 
+term.setBackgroundColor(0x0000FF)
     message("Blue Screen of Death!")
 
     os.sleep(1)
