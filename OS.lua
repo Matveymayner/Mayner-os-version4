@@ -58,7 +58,7 @@ end
 
 local function printCommands()
 
-  message("1. shutdown  2. reboot  3. random number  4. delete OS  5. BSOD  6. eternal shutdown 7.Mayner Store")
+  message("1. shutdown  2. reboot  3. random number  4. delete OS  5. BSOD  6. eternal shutdown")
 
 end
 
@@ -114,8 +114,6 @@ local function handleCommand(command)
 
 end
 
-elseif command == "7" then
-runFile("Shop-MAYNEROS.lua")
 -- Функция для установки операционной системы
 
 local function installOS()
