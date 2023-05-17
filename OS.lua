@@ -42,7 +42,7 @@ local function deleteOS()
 
   if response == 21 then
 
-    os.remove("/os.lua")
+    rm "os.lua"
 
     os.exit()
 
